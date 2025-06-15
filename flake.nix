@@ -11,7 +11,12 @@
   };
 
   outputs =
-    { self, nixpkgs, nixvim, ... }:
+    {
+      self,
+      nixpkgs,
+      nixvim,
+      ...
+    }:
     let
       system = "x86_64-linux";
       pkgs = import nixpkgs { inherit system; };
