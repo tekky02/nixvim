@@ -1,0 +1,4 @@
+{ ... }:
+{
+  imports = [ ./snacks.nix ];
+}
