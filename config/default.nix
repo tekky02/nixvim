@@ -2,11 +2,14 @@
 {
   imports = [
     ./bufferline.nix
+    ./colorschemes.nix
+    ./keymaps.nix
     ./lualine.nix
     ./web-devicons.nix
+    ./which-key.nix
     # ./snacks.nix
     ./toggleterm.nix
-    ./themes.nix
+    # ./themes.nix
     ./neotree.nix
   ];
 
