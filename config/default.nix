@@ -7,10 +7,10 @@
     ./lualine.nix
     ./web-devicons.nix
     ./which-key.nix
-    # ./snacks.nix
+    ./snacks.nix
     ./toggleterm.nix
     # ./themes.nix
-    ./neotree.nix
+    # ./neotree.nix
   ];
 
   config = {

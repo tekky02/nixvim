@@ -1,5 +1,10 @@
 {
   plugins = {
-    bufferline.enable = true;
+    bufferline = {
+      enable = true;
+      settings.options = {
+        offsets = [ { filetype = "snacks_layout_box"; } ];
+      };
+    };
   };
 }
